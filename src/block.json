@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "techiepress/travel-it-block-native",
+	"version": "0.1.0",
+	"title": "Travel IT Block",
+	"category": "design",
+	"icon": "palmtree",
+	"description": "A Travel Blog block natively created to use Gutenberg for WordPress",
+	"supports": {
+		"html": false,
+		"className": false,
+		"align": true,
+		"alignWide": true
+	},
+	"textdomain": "travel-it-block-native",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}
